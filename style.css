@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 10;
+    box-sizing: 0;
+
+}
+
+body{
+    width: 100vw;
+    height:100%;
+    background-image: url("img/cozinha.jpeg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:top;
+    padding-bottom: 0px;
+}
+
+#titulo{
+    background-color: black;
+    color: white;
+    position: absolute;
+    left: 430px;
+    text-align: center;
+    width: 500px;
+    height: 40px;
+    text-align: center;
+    border-radius: 12px;
+    border: 4px solid rgb(255, 255, 255);
+}
+
+#receitas{
+    background-color: rgb(36, 36, 36);
+    text-decoration: underline;
+    color: white;
+    width:  450px;
+    height: 500px;
+    text-align: center;
+    position: absolute;
+    left: 460px;
+    top: 100px;
+    border-radius: 12px;
+    border: 4px solid rgb(255, 255, 255);
+}
+
+#paodequeijo{
+    text-decoration: none;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    width: 250px;
+    border: 2px solid white;
+    border-radius: 5px;
+    position: absolute;
+    left: 530px;
+    top: 170px;
+    z-index: 3;
+}
+
+#bolodechoc{
+    text-decoration: none;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    width: 250px;
+    border: 2px solid white;
+    border-radius: 5px;
+    position: absolute;
+    left: 530px;
+    top: 230px;
+    z-index: 3;
+}
+
+#cabecalho{
+    -ms-flex-align: center ;
+    position: relative;
+    right: 30px;
+}
+
+#cachorroquente{
+    text-decoration: none;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    width: 250px;
+    border: 2px solid white;
+    border-radius: 5px;
+    position: absolute;
+    left: 530px;
+    top: 335px;
+    z-index: 3;
+}
+
+#bolosalgado{
+    text-decoration: none;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    width: 250px;
+    border: 2px solid white;
+    border-radius: 5px;
+    position: absolute;
+    left: 530px;
+    top: 440px;
+    z-index: 3;
+}
+
+#lasanha{
+    text-decoration: none;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    width: 250px;
+    border: 2px solid white;
+    border-radius: 5px;
+    position: absolute;
+    left: 530px;
+    top: 500px;
+    z-index: 3;
+}
+
+.pags{
+    position: relative;
+    bottom: 20px;
+}
+
+#pqj{
+    background-color: rgb(36, 36, 36);
+    text-decoration: underline;
+    color: white;
+    width:  450px;
+    height: 500px;
+    text-align: center;
+    position: absolute;
+    left: 460px;
+    top: 100px;
+    border-radius: 12px;
+    border: 4px solid rgb(255, 255, 255);
+}
+
+#bdc{
+    background-color: rgb(36, 36, 36);
+    text-decoration: underline;
+    color: white;
+    width:  450px;
+    height: 500px;
+    text-align: center;
+    position: absolute;
+    left: 460px;
+    top: 100px;
+    border-radius: 12px;
+    border: 4px solid rgb(255, 255, 255);
+}
+
+#cq{
+    background-color: rgb(36, 36, 36);
+    text-decoration: underline;
+    color: white;
+    width:  450px;
+    height: 500px;
+    text-align: center;
+    position: absolute;
+    left: 460px;
+    top: 100px;
+    border-radius: 12px;
+    border: 4px solid rgb(255, 255, 255);
+}
+
+#bs{
+    background-color: rgb(36, 36, 36);
+    text-decoration: underline;
+    color: white;
+    width:  450px;
+    height: 500px;
+    text-align: center;
+    position: absolute;
+    left: 460px;
+    top: 100px;
+    border-radius: 12px;
+    border: 4px solid rgb(255, 255, 255);
+}
+
+#ldf{
+    background-color: rgb(36, 36, 36);
+    text-decoration: underline;
+    color: white;
+    width:  450px;
+    height: 500px;
+    text-align: center;
+    position: absolute;
+    left: 460px;
+    top: 100px;
+    border-radius: 12px;
+    border: 4px solid rgb(255, 255, 255);
+}
+
+a{
+    position: relative;
+    text-decoration: none;
+    color: white;
+    left: 870px;
+    top: 580px;
+    z-index: 9999999;
+}
+
+#comofazerp, #Ingredientes{
+    width: 300px;
+    position: relative;
+    left: 545px;
+    top: 160px;
+    color: white;
+}
+
+#ingredientebolo, #comofazerb{
+    width: 300px;
+    position: relative;
+    left: 545px;
+    top: 190px;
+    color: white;
+}
+
+#ingredientech, #comofazerch{
+    width: 300px;
+    position: relative;
+    left: 545px;
+    top: 170px;
+    color: white;
+}
+
+#ingredientesbs, #comofazerbs{
+    width: 300px;
+    position: relative;
+    left: 545px;
+    top: 170px;
+    color: white;
+}
+
+#ingredientesldf, #comofazerldf{
+    width: 300px;
+    position: relative;
+    left: 545px;
+    top: 160px;
+    color: white;
+}
